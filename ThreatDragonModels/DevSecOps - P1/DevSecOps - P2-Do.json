@@ -1302,56 +1302,6 @@
             ]
           },
           {
-            "shape": "trust-broundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Externer Service für\nden Versand des OTT",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Externer Service für\nden Versand des OTT"
-                  }
-                },
-                "position": {
-                  "distance": 0.9492856006424079,
-                  "offset": -6.1135161076058475
-                }
-              }
-            ],
-            "id": "7a4ae9f7-9dfd-4347-9730-472a9171c620",
-            "source": {
-              "x": 2411,
-              "y": 148
-            },
-            "target": {
-              "x": 2410,
-              "y": 146
-            },
-            "vertices": [
-              {
-                "x": 2017,
-                "y": 101
-              },
-              {
-                "x": 2040,
-                "y": 498
-              },
-              {
-                "x": 2393,
-                "y": 446
-              }
-            ]
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -2208,16 +2158,6 @@
               "cell": "65e26a85-c76f-47b2-ae95-12a746b7354a",
               "port": "842419e0-8845-42e5-b28f-53d70e40d968"
             },
-            "vertices": [
-              {
-                "x": 400,
-                "y": -140
-              },
-              {
-                "x": 590,
-                "y": -50
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -2227,7 +2167,17 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": -140
+              },
+              {
+                "x": 590,
+                "y": -50
+              }
+            ]
           },
           {
             "position": {
